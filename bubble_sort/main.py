@@ -12,6 +12,6 @@ def bubble_sort(numbers: List[int]) -> List[int]:
 if __name__=='__main__':
     nums = [3,4, 6, 14, 13434, 134,4252]
     print(bubble_sort(nums))
-    number = [random.randint(1,2344) for i in range(10)]
+    number = [random.randint(1,2344) for _ in range(10)]
     print(bubble_sort(number))
     
